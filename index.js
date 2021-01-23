@@ -8,6 +8,8 @@ const names = JSON.parse(fs.readFileSync('names.json', 'utf8'))
 
 app.use(cors())
 
+app.use(express.static('build'))
+
 //Sends a list of names by popularity
 app.get('/api/names/popular', (req, res) => {
   const sortedNames = names.names.concat()
