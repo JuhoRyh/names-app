@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+/*Due to time limits the styling is very rough and confusing*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  background-color: #a8dadc;
+}
+
+.app {
+  min-height: 100%;
+  background-color: #a8dadc;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nameCard{
+  background-color: #f1faee;
+  display: flex;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  justify-content: space-between;
+  padding: 1rem;
+  outline-width: 1px;
+  outline-color: black;
+  outline-style: solid;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.total {
+  padding:1rem;
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #1d3557;
+  border: none;
+  margin: 0.5rem;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 12px;
+  width: 100%
+}
+
+input {
+  border-radius: 12px;
+  font-size: 16px;
+  padding: 15px 5px;
+  width: 100%
+}
+
+.content {
+  padding-bottom: 2.5rem;
+}
+
+button:hover {
+  background-color: #457b9d ;
+}
